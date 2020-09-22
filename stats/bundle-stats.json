@@ -1,0 +1,943 @@
+{
+  "createdAt": "2020-09-22T20:25:50.918Z",
+  "version": "2.2.0",
+  "runs": [
+    {
+      "webpack": {
+        "builtAt": "2020-09-22T20:25:50.902Z",
+        "hash": "e182532362953bb4e1b1"
+      },
+      "internalBuildNumber": 2
+    },
+    {
+      "internalBuildNumber": 1
+    }
+  ],
+  "summary": {
+    "webpack": [
+      {
+        "label": "Total Bundle Size",
+        "value": 140765,
+        "displayValue": "137.47KB",
+        "delta": 140765,
+        "deltaPercentage": 100,
+        "displayDelta": "+137.47KB",
+        "displayDeltaPercentage": "+100%",
+        "deltaType": "HIGH_NEGATIVE"
+      },
+      {
+        "label": "Initial JS Size",
+        "value": 132202,
+        "displayValue": "129.1KB",
+        "delta": 132202,
+        "deltaPercentage": 100,
+        "displayDelta": "+129.1KB",
+        "displayDeltaPercentage": "+100%",
+        "deltaType": "HIGH_NEGATIVE"
+      },
+      {
+        "label": "Initial CSS Size",
+        "value": 943,
+        "displayValue": "943B",
+        "delta": 943,
+        "deltaPercentage": 100,
+        "displayDelta": "+943B",
+        "displayDeltaPercentage": "+100%",
+        "deltaType": "HIGH_NEGATIVE"
+      },
+      {
+        "label": "Cache Invalidation",
+        "value": 0,
+        "displayValue": "0%",
+        "delta": 0,
+        "deltaPercentage": 0,
+        "displayDelta": "0%",
+        "displayDeltaPercentage": "0%",
+        "deltaType": "NO_CHANGE"
+      },
+      {
+        "label": "Module Count",
+        "value": 12,
+        "displayValue": "12",
+        "delta": 12,
+        "deltaPercentage": 100,
+        "displayDelta": "+12",
+        "displayDeltaPercentage": "+100%",
+        "deltaType": "HIGH_NEGATIVE"
+      },
+      {
+        "label": "Chunk Count",
+        "value": 0,
+        "displayValue": "0",
+        "delta": 0,
+        "deltaPercentage": 0,
+        "displayDelta": "0",
+        "displayDeltaPercentage": "0%",
+        "deltaType": "NO_CHANGE"
+      },
+      {
+        "label": "Asset Count",
+        "value": 9,
+        "displayValue": "9",
+        "delta": 9,
+        "deltaPercentage": 100,
+        "displayDelta": "+9",
+        "displayDeltaPercentage": "+100%",
+        "deltaType": "HIGH_NEGATIVE"
+      },
+      {
+        "label": "Package Count",
+        "value": 4,
+        "displayValue": "4",
+        "delta": 4,
+        "deltaPercentage": 100,
+        "displayDelta": "+4",
+        "displayDeltaPercentage": "+100%",
+        "deltaType": "HIGH_NEGATIVE"
+      },
+      {
+        "label": "Duplicate Packages Count",
+        "value": 0,
+        "displayValue": "0",
+        "delta": 0,
+        "deltaPercentage": 0,
+        "displayDelta": "0",
+        "displayDeltaPercentage": "0%",
+        "deltaType": "NO_CHANGE"
+      }
+    ]
+  },
+  "insights": {
+    "webpack": {
+      "assetsSizeTotal": {
+        "type": "INFO",
+        "data": {
+          "text": "Bundle size increased to 137.47KB (+100%).",
+          "md": "Bundle size increased to *137.47KB* (*+100%*).",
+          "info": {
+            "value": 140765,
+            "displayValue": "137.47KB",
+            "delta": 140765,
+            "deltaPercentage": 100,
+            "displayDelta": "+137.47KB",
+            "displayDeltaPercentage": "+100%",
+            "deltaType": "HIGH_NEGATIVE"
+          }
+        }
+      }
+    }
+  },
+  "stats": [
+    {
+      "key": "webpack.totalSizeByTypeALL",
+      "runs": [
+        {
+          "value": 140765,
+          "displayValue": "137.47KB",
+          "delta": 140765,
+          "deltaPercentage": 100,
+          "displayDelta": "+137.47KB",
+          "displayDeltaPercentage": "+100%",
+          "deltaType": "HIGH_NEGATIVE"
+        },
+        null
+      ],
+      "biggerIsBetter": false,
+      "label": "Total Bundle Size",
+      "changed": true
+    },
+    {
+      "key": "webpack.totalInitialSizeJS",
+      "runs": [
+        {
+          "value": 132202,
+          "displayValue": "129.1KB",
+          "delta": 132202,
+          "deltaPercentage": 100,
+          "displayDelta": "+129.1KB",
+          "displayDeltaPercentage": "+100%",
+          "deltaType": "HIGH_NEGATIVE"
+        },
+        null
+      ],
+      "biggerIsBetter": false,
+      "label": "Initial JS Size",
+      "changed": true
+    },
+    {
+      "key": "webpack.totalInitialSizeCSS",
+      "runs": [
+        {
+          "value": 943,
+          "displayValue": "943B",
+          "delta": 943,
+          "deltaPercentage": 100,
+          "displayDelta": "+943B",
+          "displayDeltaPercentage": "+100%",
+          "deltaType": "HIGH_NEGATIVE"
+        },
+        null
+      ],
+      "biggerIsBetter": false,
+      "label": "Initial CSS Size",
+      "changed": true
+    },
+    {
+      "key": "webpack.cacheInvalidation",
+      "runs": [
+        {
+          "value": 0,
+          "displayValue": "0%",
+          "delta": 0,
+          "deltaPercentage": 0,
+          "displayDelta": "0%",
+          "displayDeltaPercentage": "0%",
+          "deltaType": "NO_CHANGE"
+        },
+        null
+      ],
+      "biggerIsBetter": false,
+      "label": "Cache Invalidation",
+      "changed": true
+    },
+    {
+      "key": "webpack.moduleCount",
+      "runs": [
+        {
+          "value": 12,
+          "displayValue": "12",
+          "delta": 12,
+          "deltaPercentage": 100,
+          "displayDelta": "+12",
+          "displayDeltaPercentage": "+100%",
+          "deltaType": "HIGH_NEGATIVE"
+        },
+        null
+      ],
+      "biggerIsBetter": false,
+      "label": "Module Count",
+      "changed": true
+    },
+    {
+      "key": "webpack.chunkCount",
+      "runs": [
+        {
+          "value": 0,
+          "displayValue": "0",
+          "delta": 0,
+          "deltaPercentage": 0,
+          "displayDelta": "0",
+          "displayDeltaPercentage": "0%",
+          "deltaType": "NO_CHANGE"
+        },
+        null
+      ],
+      "biggerIsBetter": false,
+      "label": "Chunk Count",
+      "changed": true
+    },
+    {
+      "key": "webpack.assetCount",
+      "runs": [
+        {
+          "value": 9,
+          "displayValue": "9",
+          "delta": 9,
+          "deltaPercentage": 100,
+          "displayDelta": "+9",
+          "displayDeltaPercentage": "+100%",
+          "deltaType": "HIGH_NEGATIVE"
+        },
+        null
+      ],
+      "biggerIsBetter": false,
+      "label": "Asset Count",
+      "changed": true
+    },
+    {
+      "key": "webpack.packageCount",
+      "runs": [
+        {
+          "value": 4,
+          "displayValue": "4",
+          "delta": 4,
+          "deltaPercentage": 100,
+          "displayDelta": "+4",
+          "displayDeltaPercentage": "+100%",
+          "deltaType": "HIGH_NEGATIVE"
+        },
+        null
+      ],
+      "biggerIsBetter": false,
+      "label": "Package Count",
+      "changed": true
+    },
+    {
+      "key": "webpack.duplicatePackagesCount",
+      "runs": [
+        {
+          "value": 0,
+          "displayValue": "0",
+          "delta": 0,
+          "deltaPercentage": 0,
+          "displayDelta": "0",
+          "displayDeltaPercentage": "0%",
+          "deltaType": "NO_CHANGE"
+        },
+        null
+      ],
+      "biggerIsBetter": false,
+      "label": "Duplicate Packages Count",
+      "changed": true
+    }
+  ],
+  "sizes": [
+    {
+      "key": "webpack.sizes.totalSizeByTypeJS",
+      "runs": [
+        {
+          "value": 134148,
+          "displayValue": "131KB",
+          "delta": 134148,
+          "deltaPercentage": 100,
+          "displayDelta": "+131KB",
+          "displayDeltaPercentage": "+100%",
+          "deltaType": "HIGH_NEGATIVE"
+        },
+        null
+      ],
+      "biggerIsBetter": false,
+      "label": "JS",
+      "changed": true
+    },
+    {
+      "key": "webpack.sizes.totalSizeByTypeCSS",
+      "runs": [
+        {
+          "value": 943,
+          "displayValue": "943B",
+          "delta": 943,
+          "deltaPercentage": 100,
+          "displayDelta": "+943B",
+          "displayDeltaPercentage": "+100%",
+          "deltaType": "HIGH_NEGATIVE"
+        },
+        null
+      ],
+      "biggerIsBetter": false,
+      "label": "CSS",
+      "changed": true
+    },
+    {
+      "key": "webpack.sizes.totalSizeByTypeIMG",
+      "runs": [
+        {
+          "value": 2671,
+          "displayValue": "2.61KB",
+          "delta": 2671,
+          "deltaPercentage": 100,
+          "displayDelta": "+2.61KB",
+          "displayDeltaPercentage": "+100%",
+          "deltaType": "HIGH_NEGATIVE"
+        },
+        null
+      ],
+      "biggerIsBetter": false,
+      "label": "IMG",
+      "changed": true
+    },
+    {
+      "key": "webpack.sizes.totalSizeByTypeMEDIA",
+      "runs": [
+        {
+          "value": 0,
+          "displayValue": "0B",
+          "delta": 0,
+          "deltaPercentage": 0,
+          "displayDelta": "0B",
+          "displayDeltaPercentage": "0%",
+          "deltaType": "NO_CHANGE"
+        },
+        null
+      ],
+      "biggerIsBetter": false,
+      "label": "Media",
+      "changed": true
+    },
+    {
+      "key": "webpack.sizes.totalSizeByTypeFONT",
+      "runs": [
+        {
+          "value": 0,
+          "displayValue": "0B",
+          "delta": 0,
+          "deltaPercentage": 0,
+          "displayDelta": "0B",
+          "displayDeltaPercentage": "0%",
+          "deltaType": "NO_CHANGE"
+        },
+        null
+      ],
+      "biggerIsBetter": false,
+      "label": "Fonts",
+      "changed": true
+    },
+    {
+      "key": "webpack.sizes.totalSizeByTypeHTML",
+      "runs": [
+        {
+          "value": 2213,
+          "displayValue": "2.16KB",
+          "delta": 2213,
+          "deltaPercentage": 100,
+          "displayDelta": "+2.16KB",
+          "displayDeltaPercentage": "+100%",
+          "deltaType": "HIGH_NEGATIVE"
+        },
+        null
+      ],
+      "biggerIsBetter": false,
+      "label": "HTML",
+      "changed": true
+    },
+    {
+      "key": "webpack.sizes.totalSizeByTypeOTHER",
+      "runs": [
+        {
+          "value": 790,
+          "displayValue": "790B",
+          "delta": 790,
+          "deltaPercentage": 100,
+          "displayDelta": "+790B",
+          "displayDeltaPercentage": "+100%",
+          "deltaType": "HIGH_NEGATIVE"
+        },
+        null
+      ],
+      "biggerIsBetter": false,
+      "label": "Other",
+      "changed": true
+    }
+  ],
+  "assets": [
+    {
+      "key": "index.html",
+      "runs": [
+        {
+          "name": "index.html",
+          "value": 2213,
+          "isEntry": false,
+          "isInitial": false,
+          "isChunk": false,
+          "displayValue": "2.16KB",
+          "delta": 2213,
+          "deltaPercentage": 100,
+          "displayDelta": "+2.16KB",
+          "displayDeltaPercentage": "+100%",
+          "deltaType": "HIGH_NEGATIVE"
+        },
+        null
+      ],
+      "biggerIsBetter": false,
+      "label": "index.html",
+      "changed": true
+    },
+    {
+      "key": "precache-manifest.js",
+      "runs": [
+        {
+          "name": "precache-manifest.0b16b250f2b7dc244bdf97027ab31c6c.js",
+          "value": 763,
+          "isEntry": false,
+          "isInitial": false,
+          "isChunk": false,
+          "displayValue": "763B",
+          "delta": 763,
+          "deltaPercentage": 100,
+          "displayDelta": "+763B",
+          "displayDeltaPercentage": "+100%",
+          "deltaType": "HIGH_NEGATIVE"
+        },
+        null
+      ],
+      "biggerIsBetter": false,
+      "label": "precache-manifest.js",
+      "changed": true
+    },
+    {
+      "key": "service-worker.js",
+      "runs": [
+        {
+          "name": "service-worker.js",
+          "value": 1183,
+          "isEntry": false,
+          "isInitial": false,
+          "isChunk": false,
+          "displayValue": "1.16KB",
+          "delta": 1183,
+          "deltaPercentage": 100,
+          "displayDelta": "+1.16KB",
+          "displayDeltaPercentage": "+100%",
+          "deltaType": "HIGH_NEGATIVE"
+        },
+        null
+      ],
+      "biggerIsBetter": false,
+      "label": "service-worker.js",
+      "changed": true
+    },
+    {
+      "key": "static/css/main.5f361e03.chunk.css",
+      "runs": [
+        {
+          "name": "static/css/main.5f361e03.chunk.css",
+          "value": 943,
+          "isEntry": true,
+          "isInitial": true,
+          "isChunk": false,
+          "displayValue": "943B",
+          "delta": 943,
+          "deltaPercentage": 100,
+          "displayDelta": "+943B",
+          "displayDeltaPercentage": "+100%",
+          "deltaType": "HIGH_NEGATIVE"
+        },
+        null
+      ],
+      "biggerIsBetter": false,
+      "label": "static/css/main.5f361e03.chunk.css",
+      "changed": true
+    },
+    {
+      "key": "static/js/2.febcc973.chunk.js",
+      "runs": [
+        {
+          "name": "static/js/2.febcc973.chunk.js",
+          "value": 129436,
+          "isEntry": true,
+          "isInitial": true,
+          "isChunk": false,
+          "displayValue": "126.4KB",
+          "delta": 129436,
+          "deltaPercentage": 100,
+          "displayDelta": "+126.4KB",
+          "displayDeltaPercentage": "+100%",
+          "deltaType": "HIGH_NEGATIVE"
+        },
+        null
+      ],
+      "biggerIsBetter": false,
+      "label": "static/js/2.febcc973.chunk.js",
+      "changed": true
+    },
+    {
+      "key": "static/js/2.febcc973.chunk.js.LICENSE.txt",
+      "runs": [
+        {
+          "name": "static/js/2.febcc973.chunk.js.LICENSE.txt",
+          "value": 790,
+          "isEntry": false,
+          "isInitial": false,
+          "isChunk": false,
+          "displayValue": "790B",
+          "delta": 790,
+          "deltaPercentage": 100,
+          "displayDelta": "+790B",
+          "displayDeltaPercentage": "+100%",
+          "deltaType": "HIGH_NEGATIVE"
+        },
+        null
+      ],
+      "biggerIsBetter": false,
+      "label": "static/js/2.febcc973.chunk.js.LICENSE.txt",
+      "changed": true
+    },
+    {
+      "key": "static/js/main.9d876839.chunk.js",
+      "runs": [
+        {
+          "name": "static/js/main.9d876839.chunk.js",
+          "value": 1213,
+          "isEntry": true,
+          "isInitial": true,
+          "isChunk": false,
+          "displayValue": "1.18KB",
+          "delta": 1213,
+          "deltaPercentage": 100,
+          "displayDelta": "+1.18KB",
+          "displayDeltaPercentage": "+100%",
+          "deltaType": "HIGH_NEGATIVE"
+        },
+        null
+      ],
+      "biggerIsBetter": false,
+      "label": "static/js/main.9d876839.chunk.js",
+      "changed": true
+    },
+    {
+      "key": "static/js/runtime-main.js",
+      "runs": [
+        {
+          "name": "static/js/runtime-main.9938bad8.js",
+          "value": 1553,
+          "isEntry": true,
+          "isInitial": true,
+          "isChunk": false,
+          "displayValue": "1.52KB",
+          "delta": 1553,
+          "deltaPercentage": 100,
+          "displayDelta": "+1.52KB",
+          "displayDeltaPercentage": "+100%",
+          "deltaType": "HIGH_NEGATIVE"
+        },
+        null
+      ],
+      "biggerIsBetter": false,
+      "label": "static/js/runtime-main.js",
+      "changed": true
+    },
+    {
+      "key": "static/media/logo.svg",
+      "runs": [
+        {
+          "name": "static/media/logo.5d5d9eef.svg",
+          "value": 2671,
+          "isEntry": false,
+          "isInitial": false,
+          "isChunk": false,
+          "displayValue": "2.61KB",
+          "delta": 2671,
+          "deltaPercentage": 100,
+          "displayDelta": "+2.61KB",
+          "displayDeltaPercentage": "+100%",
+          "deltaType": "HIGH_NEGATIVE"
+        },
+        null
+      ],
+      "biggerIsBetter": false,
+      "label": "static/media/logo.svg",
+      "changed": true
+    }
+  ],
+  "modules": [
+    {
+      "chunkId": "0",
+      "chunkNames": [
+        "main",
+        null
+      ],
+      "modules": [
+        {
+          "key": "./src/logo.svg",
+          "runs": [
+            {
+              "name": "./src/logo.svg",
+              "value": 76,
+              "displayValue": "76B",
+              "delta": 76,
+              "deltaPercentage": 100,
+              "displayDelta": "+76B",
+              "displayDeltaPercentage": "+100%",
+              "deltaType": "HIGH_NEGATIVE"
+            },
+            null
+          ],
+          "biggerIsBetter": false,
+          "label": "./src/logo.svg",
+          "changed": true
+        },
+        {
+          "key": "multi ./src/index.js",
+          "runs": [
+            {
+              "name": "multi ./src/index.js",
+              "value": 28,
+              "displayValue": "28B",
+              "delta": 28,
+              "deltaPercentage": 100,
+              "displayDelta": "+28B",
+              "displayDeltaPercentage": "+100%",
+              "deltaType": "HIGH_NEGATIVE"
+            },
+            null
+          ],
+          "biggerIsBetter": false,
+          "label": "multi ./src/index.js",
+          "changed": true
+        },
+        {
+          "key": "./src/index.css",
+          "runs": [
+            {
+              "name": "css ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/index.css",
+              "value": 366,
+              "displayValue": "366B",
+              "delta": 366,
+              "deltaPercentage": 100,
+              "displayDelta": "+366B",
+              "displayDeltaPercentage": "+100%",
+              "deltaType": "HIGH_NEGATIVE"
+            },
+            null
+          ],
+          "biggerIsBetter": false,
+          "label": "./src/index.css",
+          "changed": true
+        },
+        {
+          "key": "./src/App.css",
+          "runs": [
+            {
+              "name": "css ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/App.css",
+              "value": 752,
+              "displayValue": "752B",
+              "delta": 752,
+              "deltaPercentage": 100,
+              "displayDelta": "+752B",
+              "displayDeltaPercentage": "+100%",
+              "deltaType": "HIGH_NEGATIVE"
+            },
+            null
+          ],
+          "biggerIsBetter": false,
+          "label": "./src/App.css",
+          "changed": true
+        },
+        {
+          "key": "./src/index.js",
+          "runs": [
+            {
+              "name": "./src/index.js + 2 modules",
+              "value": 5270,
+              "displayValue": "5.15KB",
+              "delta": 5270,
+              "deltaPercentage": 100,
+              "displayDelta": "+5.15KB",
+              "displayDeltaPercentage": "+100%",
+              "deltaType": "HIGH_NEGATIVE"
+            },
+            null
+          ],
+          "biggerIsBetter": false,
+          "label": "./src/index.js",
+          "changed": true
+        }
+      ]
+    },
+    {
+      "chunkId": "2",
+      "chunkNames": [
+        null
+      ],
+      "modules": [
+        {
+          "key": "./node_modules/react/index.js",
+          "runs": [
+            {
+              "name": "./node_modules/react/index.js",
+              "value": 189,
+              "displayValue": "189B",
+              "delta": 189,
+              "deltaPercentage": 100,
+              "displayDelta": "+189B",
+              "displayDeltaPercentage": "+100%",
+              "deltaType": "HIGH_NEGATIVE"
+            },
+            null
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/react/index.js",
+          "changed": true
+        },
+        {
+          "key": "./node_modules/object-assign/index.js",
+          "runs": [
+            {
+              "name": "./node_modules/object-assign/index.js",
+              "value": 2226,
+              "displayValue": "2.17KB",
+              "delta": 2226,
+              "deltaPercentage": 100,
+              "displayDelta": "+2.17KB",
+              "displayDeltaPercentage": "+100%",
+              "deltaType": "HIGH_NEGATIVE"
+            },
+            null
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/object-assign/index.js",
+          "changed": true
+        },
+        {
+          "key": "./node_modules/react-dom/index.js",
+          "runs": [
+            {
+              "name": "./node_modules/react-dom/index.js",
+              "value": 1352,
+              "displayValue": "1.32KB",
+              "delta": 1352,
+              "deltaPercentage": 100,
+              "displayDelta": "+1.32KB",
+              "displayDeltaPercentage": "+100%",
+              "deltaType": "HIGH_NEGATIVE"
+            },
+            null
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/react-dom/index.js",
+          "changed": true
+        },
+        {
+          "key": "./node_modules/react/cjs/react.production.min.js",
+          "runs": [
+            {
+              "name": "./node_modules/react/cjs/react.production.min.js",
+              "value": 9022,
+              "displayValue": "8.81KB",
+              "delta": 9022,
+              "deltaPercentage": 100,
+              "displayDelta": "+8.81KB",
+              "displayDeltaPercentage": "+100%",
+              "deltaType": "HIGH_NEGATIVE"
+            },
+            null
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/react/cjs/react.production.min.js",
+          "changed": true
+        },
+        {
+          "key": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "runs": [
+            {
+              "name": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+              "value": 174585,
+              "displayValue": "170.49KB",
+              "delta": 174585,
+              "deltaPercentage": 100,
+              "displayDelta": "+170.49KB",
+              "displayDeltaPercentage": "+100%",
+              "deltaType": "HIGH_NEGATIVE"
+            },
+            null
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "changed": true
+        },
+        {
+          "key": "./node_modules/scheduler/index.js",
+          "runs": [
+            {
+              "name": "./node_modules/scheduler/index.js",
+              "value": 197,
+              "displayValue": "197B",
+              "delta": 197,
+              "deltaPercentage": 100,
+              "displayDelta": "+197B",
+              "displayDeltaPercentage": "+100%",
+              "deltaType": "HIGH_NEGATIVE"
+            },
+            null
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/scheduler/index.js",
+          "changed": true
+        },
+        {
+          "key": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "runs": [
+            {
+              "name": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+              "value": 7117,
+              "displayValue": "6.95KB",
+              "delta": 7117,
+              "deltaPercentage": 100,
+              "displayDelta": "+6.95KB",
+              "displayDeltaPercentage": "+100%",
+              "deltaType": "HIGH_NEGATIVE"
+            },
+            null
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "changed": true
+        }
+      ]
+    }
+  ],
+  "packages": [
+    {
+      "key": "react",
+      "runs": [
+        {
+          "value": 9211,
+          "displayValue": "9KB",
+          "delta": 9211,
+          "deltaPercentage": 100,
+          "displayDelta": "+9KB",
+          "displayDeltaPercentage": "+100%",
+          "deltaType": "HIGH_NEGATIVE"
+        },
+        null
+      ],
+      "biggerIsBetter": false,
+      "label": "react",
+      "changed": true
+    },
+    {
+      "key": "object-assign",
+      "runs": [
+        {
+          "value": 2226,
+          "displayValue": "2.17KB",
+          "delta": 2226,
+          "deltaPercentage": 100,
+          "displayDelta": "+2.17KB",
+          "displayDeltaPercentage": "+100%",
+          "deltaType": "HIGH_NEGATIVE"
+        },
+        null
+      ],
+      "biggerIsBetter": false,
+      "label": "object-assign",
+      "changed": true
+    },
+    {
+      "key": "react-dom",
+      "runs": [
+        {
+          "value": 175937,
+          "displayValue": "171.81KB",
+          "delta": 175937,
+          "deltaPercentage": 100,
+          "displayDelta": "+171.81KB",
+          "displayDeltaPercentage": "+100%",
+          "deltaType": "HIGH_NEGATIVE"
+        },
+        null
+      ],
+      "biggerIsBetter": false,
+      "label": "react-dom",
+      "changed": true
+    },
+    {
+      "key": "scheduler",
+      "runs": [
+        {
+          "value": 7314,
+          "displayValue": "7.14KB",
+          "delta": 7314,
+          "deltaPercentage": 100,
+          "displayDelta": "+7.14KB",
+          "displayDeltaPercentage": "+100%",
+          "deltaType": "HIGH_NEGATIVE"
+        },
+        null
+      ],
+      "biggerIsBetter": false,
+      "label": "scheduler",
+      "changed": true
+    }
+  ]
+}
